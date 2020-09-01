@@ -10,6 +10,7 @@ public class App {
 
   public static int compare(int a, int b) {
     return Ints.compare(a, b);
+    System.out.println("chubatova__compared successfully")
   }
 
   public static void main(String... args) throws Exception {
