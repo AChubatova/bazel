@@ -9,8 +9,9 @@ import com.google.common.primitives.Ints;
 public class App {
 
   public static int compare(int a, int b) {
-    return Ints.compare(a, b);
     System.out.println("chubatova__compared successfully");
+    return Ints.compare(a, b);
+
   }
 
   public static void main(String... args) throws Exception {
