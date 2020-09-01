@@ -9,7 +9,7 @@ import com.google.common.primitives.Ints;
 public class App {
 
   public static int compare(int a, int b) {
-    System.out.println("chubatova__compared successfully");
+    System.out.println("THIS IS A JAVA SYSTEM OUT PRINTLN FROM BAZEL TEST");
     return Ints.compare(a, b);
 
   }
